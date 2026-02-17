@@ -1,0 +1,9 @@
+{
+  "name": "pricetag-v3",
+  "module": "index.js",
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^24.37.3",
+    "telegraf": "^4.16.3"
+  }
+}
