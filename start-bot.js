@@ -30,7 +30,7 @@ const generateHtml = (labels) => {
 
     return `<html><head><style>
         * { box-sizing: border-box; }
-        body { font-family: sans-serif; margin: 0; padding: 0; -webkit-print-color-adjust: exact; }
+        body { font-family: 'fira code', sans-serif; margin: 0; padding: 0; -webkit-print-color-adjust: exact; }
         .page { width: 29.7cm; height: 21cm; padding: 1.2cm; display: grid; grid-template-columns: repeat(3, 8.7cm); grid-template-rows: repeat(3, 5.7cm); gap: 0.4cm; page-break-after: always; justify-content: center; align-content: center; }
         .page:last-child { page-break-after: avoid !important; }
         .label { width: 8.7cm; height: 5.7cm; border: 1px solid #000; display: flex; flex-direction: column; justify-content: space-between; }
